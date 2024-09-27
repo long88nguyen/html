@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    font-family: 'roboto';
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+p{
+    margin-bottom: 4px !important;
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* header css start*/
+.header .header_top
+{
+    background-color: #000;
+    height: 80px;
+}
+
+.header .header_top .header_top-logo 
+{
+    color: white;
+}
+
+.header .header_top .header_top-search i {
+    font-size: 20px;
+}
+
+.header .header_bottom
+{
+    background-color: #303032;
+    height: 40px;
+}
+
+/* header style end */
+
+/* content style start */
+.content .content_banner {
+    height: 430px;
+    background-color: #000;
+}
+
+.content .content_banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .content-introduce{
+    height: 100px;
+}
+
+.content_category .title_mod
+{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: none;
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    height: 18px; 
+}
+
+.content_category .title_mod::after
+{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    top: 23px;
+    left: 0px;
+    position: absolute;
+}
+
+.content_category .title_mod span{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    background: #fff;
+    padding: 0px 18px;
+    color: #232323;
+    display: inline-table; 
+}
+
+.content_product .content_product-item{
+    margin-top: 20px;
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    background: #d92b34;
+    color: #fff;
+    padding: 10px 3px 0px;
+    font-size: 14px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 77%, 0 100%);
+    height: 48px;
+    width: 38px;
+    box-sizing: border-box;  
+}
+
+.content_product .content_product-item .content_product-item--image {
+    height: 340px;
+    transition: all ease-in 0.6s;
+}
+
+.content_product .content_product-item .content_product-item--image:hover {
+    transform: scale(1.05);
+}
+
+.content_product .content_product-item .content_product-item--info .text-danger
+{
+    font-size: 20px;
+} 
+
+.content_product  .content_product-more i {
+    font-size: 22px;
+}
+
+.content_product  .content_product-more span{
+    font-size: 20px;
+}
+/* content style end  */
+
+.footer{
+    height: 300px;
+    background: black;
+}
+
+.footer .footer_top ul li{
+    color: #929292;
+    font-size: 14px;
+}
